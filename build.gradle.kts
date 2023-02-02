@@ -10,6 +10,7 @@ plugins {
 group = "com.t-cito.api"
 version = "1.0.0"
 java.sourceCompatibility = JavaVersion.VERSION_17
+java.manifest().attributes("Main-Class: com.tcito.api.TCitoApiApplication")
 
 repositories {
     mavenCentral()
